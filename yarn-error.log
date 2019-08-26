@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add prettier eslint-config-prettier eslint-plugin-prettier -D
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add sequelize
 
 PATH: 
   /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
