@@ -6,7 +6,7 @@ export default async (req, res, next) => {
   const authHeader = req.headers.authorization;
   if (!authHeader) {
     return res.status(401).json({
-      message: 'Token não informado',
+      message: 'Token is not provider',
     });
   }
   const [, token] = authHeader.split(' ');
@@ -17,7 +17,7 @@ export default async (req, res, next) => {
     return next();
   } catch (error) {
     return res.status(401).json({
-      message: 'Token inválido',
+      message: 'Invalid Token',
     });
   }
 };
